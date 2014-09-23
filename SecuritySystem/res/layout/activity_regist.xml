@@ -1,0 +1,149 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context=".RegistActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/popupmenu_header_title_bg"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="30dp"
+            android:text="注册" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        
+        <controls.ClearEditText
+            android:id="@+id/passwork1_Edt"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="40dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="20dp"
+            android:background="@null"
+            android:drawableLeft="@drawable/login_lock"
+            android:drawablePadding="10dp"
+            android:drawableRight="@drawable/edittext_close"
+            android:ems="10"
+            android:hint="请输入密码"
+            android:inputType="textPassword"
+            android:textColor="#000"
+            android:textColorHint="#43b510" />
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        
+        <controls.ClearEditText
+            android:id="@+id/passwork2_Edt"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="40dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="20dp"
+            android:background="@null"
+            android:drawableLeft="@drawable/login_lock"
+            android:drawablePadding="10dp"
+            android:drawableRight="@drawable/edittext_close"
+            android:ems="10"
+            android:hint="请再次输入密码"
+            android:inputType="textPassword"
+            android:textColor="#000"
+            android:textColorHint="#43b510" />
+
+    </LinearLayout>
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        
+        <controls.ClearEditText
+            android:id="@+id/question_Edt"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="40dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="20dp"
+            android:background="@null"
+            android:drawableLeft="@drawable/login_lock"
+            android:drawablePadding="10dp"
+            android:drawableRight="@drawable/edittext_close"
+            android:ems="10"
+            android:hint="输入安全问题"
+            android:inputType="text"
+            android:textColor="#000"
+            android:textColorHint="#43b510" />
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        
+        <controls.ClearEditText
+            android:id="@+id/answer_Edt"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="40dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="20dp"
+            android:background="@null"
+            android:drawableLeft="@drawable/login_lock"
+            android:drawablePadding="10dp"
+            android:drawableRight="@drawable/edittext_close"
+            android:ems="10"
+            android:hint="输入安全问题答案"
+            android:inputType="textPassword"
+            android:textColor="#000"
+            android:textColorHint="#43b510" />
+
+    </LinearLayout>
+    
+    
+    
+    
+     <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/regist_But"
+                android:background="@drawable/selector_but"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="注册" />
+
+            <Button
+                android:id="@+id/clean_But"
+                android:layout_marginLeft="40dp"
+                android:background="@drawable/selector_but"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="清空" />
+            
+        </LinearLayout>
+
+</LinearLayout>

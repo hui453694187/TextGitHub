@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SecuritySystem</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_regist">RegistActivity</string>
+    <string name="title_activity_maine">MainActivity</string>
+    <string name="title_activity_simchange_notifi">SIMChangeNotifiActivity</string>
+    <string name="title_activity_alert__music_">Alert_Music_Activity</string>
+    <string name="title_activity_phone_location">PhoneLocationActivity</string>
+    <string name="title_activity_delete_data">DeleteDataActivity</string>
+    <string name="title_activity_loack_phone">LoackPhoneActivity</string>
+    <string name="title_activity_found_pass">Found_passActivity</string>
+    <string name="title_activity_localtion">LocaltionActivity</string>
+
+</resources>

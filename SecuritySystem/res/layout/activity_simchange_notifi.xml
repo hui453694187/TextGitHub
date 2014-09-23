@@ -1,0 +1,176 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SIMChangeNotifiActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/popupmenu_header_title_bg" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/selector_back" />
+
+            <LinearLayout
+                android:layout_width="2dp"
+                android:layout_height="fill_parent"
+                android:background="@drawable/noti_line" >
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="SIM卡更换通知"
+                android:textColor="#fffdff"
+                android:textSize="25dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2" >
+
+            <LinearLayout
+                android:layout_width="2dp"
+                android:layout_height="fill_parent"
+                android:background="@drawable/noti_line" >
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/traffic_settings" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#e7e7e7"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textColor="#565654"
+                android:textSize="15dp"
+                android:text="手机被盗后，当SIM卡被更换时，自动向您设定的紧急联系人号码发送短信。通过短信您便能知道对方的手机号码" />
+            
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+             android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textColor="#565654"
+                android:textSize="15dp"
+                android:text="接下来，您便可以通过发送短信指令，控制被盗手机" />
+        </LinearLayout>
+
+        
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+             android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/button1"
+                android:background="@drawable/selector_but"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="手机定位" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_marginLeft="40dp"
+                android:background="@drawable/selector_but"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="报警追踪" />
+            
+        </LinearLayout>
+
+         <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="2dp"
+                android:background="@drawable/xian"
+                android:orientation="vertical" >
+         </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp" 
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="7"
+            android:background="#d4d4d4"
+            android:padding="8dp"
+            android:orientation="vertical" >
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:textColor="#565654"
+                android:text="点击“手机定位”，通过发送指令 dingwei*防盗密码  到被盗手机使用的当前号码，可以定位手机位置，追踪被盗手机" />
+
+            <TextView
+                android:id="@+id/textView5"
+                 android:gravity="center"
+                android:layout_height="0dp"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#565654"
+                android:text="点击报警追踪，通过发送指令  baojing*防盗密码   到被盗手机使用的当前号码，被盗手机便会响起警报音，如在附近被盗，您可以抓个现行哦！" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,171 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PhoneLocationActivity" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:background="@drawable/popupmenu_header_title_bg" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/selector_back" />
+
+            <LinearLayout
+                android:layout_width="2dp"
+                android:layout_height="fill_parent"
+                android:background="@drawable/noti_line" >
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="手机定位"
+                android:textColor="#fffdff"
+                android:textSize="25dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2" >
+
+            <LinearLayout
+                android:layout_width="2dp"
+                android:layout_height="fill_parent"
+                android:background="@drawable/noti_line" >
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/traffic_settings" />
+        </LinearLayout>
+    </LinearLayout>
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5" >
+        
+        <controls.ClearEditText
+            android:id="@+id/login_et_passwork"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="20dp"
+            android:background="@null"
+            android:drawableLeft="@drawable/login_lock"
+            android:drawablePadding="10dp"
+            android:drawableRight="@drawable/edittext_close"
+            android:ems="10"
+            android:hint="被盗手机当前使用号码"
+            android:inputType="textPassword"
+            android:textColor="#000"
+            android:textColorHint="#43b510" />
+        
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5" >
+        
+        <controls.ClearEditText
+            android:id="@+id/login_et_passwork"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="20dp"
+            android:background="@null"
+            android:drawableLeft="@drawable/login_lock"
+            android:drawablePadding="10dp"
+            android:drawableRight="@drawable/edittext_close"
+            android:ems="10"
+            android:hint="被盗手机防盗密码"
+            android:inputType="textPassword"
+            android:textColor="#000"
+            android:textColorHint="#43b510" />
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:gravity="center"
+        android:orientation="vertical" >
+        
+        <Button
+                android:id="@+id/button1"
+                android:background="@drawable/selector_but"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="手机定位" />
+        
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="@drawable/line"
+                >
+         </LinearLayout>
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4.5"
+        android:background="#d4d4d4"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#565656"
+            android:text="用任意手机发送短信指令  dingwei*防盗密码   到被盗手机，获取被盗手机当前位置，帮您快速找到手机。" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:textColor="#1e813e"
+            android:text="备注：手机定位成功后，将回发送短信告知您手机当前位置" />
+        
+    </LinearLayout>
+    
+
+</LinearLayout>
